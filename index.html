@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="bodycenter">
+        <header>
+            <div class="bgimg">
+                <img src="./img/background.jpg" alt="" style="opacity: 0.2;">
+                <div class="logobg">
+                    <div class="logo">
+                        <img src="./logo/sylani logo.png" alt="">
+                    </div>
+                </div>
+                <div class="l-r-s">
+                    <div class="links">
+                        <div class="fb">
+                            <a href="https://www.facebook.com/SaylaniMassITTraining" target="_blank">
+                                <img src="./icon/facebook logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="insta">
+                            <a href="https://www.instagram.com/saylanimassittraining" target="_blank">
+                                <img src="./icon/insta logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="youtube">
+                            <a href="https://www.youtube.com/@SaylaniMassITTraining" target="_blank">
+                                <img src="./icon/youtube logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="reg-heading">
+                        <h1>Registration Form - SMIT</h1>
+                    </div>
+                    <div class="st-btn">
+                        <button><i class="fa-solid fa-user-graduate"></i>Student Portal</button>
+                    </div>
+                </div>
+                <div class="s-e-r">
+                    <h4>Services - Education - Registration</h4>
+                </div>
+                <div class="navigatbar">
+                    <div class="navigat">
+                        <div class="application">
+                            <p>New Application</p>
+                        </div>
+                        <div class="idcard">
+                            <p>Download ID Card</p>
+                        </div>
+                        <div class="result">
+                            <p>Result</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <form action="">
+                <div class="div1">
+                    <div class="divbox">
+                        <label for="select">Select city</label>
+                        <select name="selectcity" id="">
+                            <option value="" selected>Select city</option>
+                            <option value="">Karachi</option>
+                            <option value="">Quetta</option>
+                            <option value="">Faislabad</option>
+                        </select>
+                    </div>
+                    <div class="divbox">
+                        <label for="select">Select course or event</label>
+                        <select name="selectcity" id="">
+                            <option value="" selected>Select course or event</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="divbox">
+                        <label for="name">Full name</label>
+                        <input type="text" placeholder="Full name" required>
+                    </div>
+                    <div class="divbox">
+                        <label for="father-name">Father name</label>
+                        <input type="text" placeholder="Father name" required>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="divbox">
+                        <label for="name">Email</label>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="divbox">
+                        <label for="father-name">Phone</label>
+                        <input type="number" placeholder="Phone" required>
+                    </div>
+                </div>
+                <div class="div4">
+                    <div class="divbox">
+                        <label for="name">CNIC</label>
+                        <input type="number" placeholder="CNIC" required>
+                    </div>
+                    <div class="divbox">
+                        <label for="father-name">Father's CNIC</label>
+                        <input type="number" placeholder="Father's CNIC" required>
+                    </div>
+                </div>
+                <div class="div5">
+                    <div class="divbox">
+                        <label for="name">Date of birth</label>
+                        <input type="date" placeholder="Date of birth" required>
+                    </div>
+                    <div class="divbox">
+                        <label for="Select gender">Select gender</label>
+                        <select name="Select gender" id="">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="not to say">not to say</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="div6">
+                    <label for="Address">Address</label>
+                    <input type="text" placeholder="Address">
+                </div>
+                <div class="div7">
+                    <label for="Last qualification">Last qualification</label>
+                    <select name="" id="">
+                        <option value="">Last qualification</option>
+                        <option value="">Matric</option>
+                        <option value="">intermadiate</option>
+                        <option value="">undergraduate</option>
+                        <option value="">Graduate</option>
+                        <option value="">Masters</option>
+                        <option value="">PHD</option>
+                        <option value="">Others</option>
+                    </select>
+                </div>
+                <div class="div8">
+                    <label for="">Do you have a laptop?</label>
+                    <select name="" id="">
+                        <option value="">Do you have a laptop?</option>
+                        <option value="">YES</option>
+                        <option value="">NO</option>
+                    </select>
+                </div>
+                <div class="div9">
+                    <div class="picbox">
+                        <h4>Picture</h4>
+                        <button>+Upload</button>
+                    </div>
+                    <div class="picdiscraption">
+                        <p>With white or blue background</p>
+                        <p>File size must be less than 1MB</p>
+                        <p>File type: jpg, jpeg, png</p>
+                        <p>Upload your recent passport size picture</p>
+                        <p>Your Face should be clearly visible without any Glasses</p>
+                    </div>
+                </div>
+                <div class="div10">
+                    <ol>
+                        <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to
+                            the best of my knowledge. Further, I will abide by all the established and future
+                            regulations and policies of SWIT</li>
+                        <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>    
+                        <li>Defiance will render my admission canceled at any point in time.</li>
+                        <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                        <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                    </ol>
+                    <button>SUBMIT</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
